@@ -1,0 +1,20 @@
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\jeffr\Desktop\repos\School\programmeren4\eigen oefeningen\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.json
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.runtimeconfig.dev.json
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\bin\Debug\netcoreapp3.1\DataLayer.pdb
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.csprojAssemblyReference.cache
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.dll
+C:\Users\jeffr\Desktop\repos\EF\EF\PlayerControlLibrary\obj\Debug\netcoreapp3.1\DataLayer.pdb
