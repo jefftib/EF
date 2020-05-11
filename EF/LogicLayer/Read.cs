@@ -26,7 +26,7 @@ namespace LeagueApp
                 var stamnummer = footballParser[4] != null ? int.Parse(footballParser[4]) : -1;
                 var trainer = footballParser[5] != null ? footballParser[5].Trim() : "";
                 var bijnaam = footballParser[6] != null ? footballParser[6].Trim() : "";
-
+                //Todo: make data change
               this.CreateTeam(stamnummer, clubNaam,bijnaam,trainer);
                 // this.CreatePlayer(spelernaam,rugnummer,waarde,)
                 
