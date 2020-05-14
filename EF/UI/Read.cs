@@ -52,18 +52,7 @@ namespace UI
                     dbfunctions.VoegSpelerToe(s);
                 }
             }
-            var appel = new Speler("test", 666, 314, 99);
-           
-            dbfunctions.VoegSpelerToe(appel);
-             appel.Naam = "Jeff";
-           
-            dbfunctions.UpdateSpeler(appel);
-       //     Transfer transfer = new Transfer(1, 7, 35,6000) ;
-       //     dbfunctions.VoegTransferToe(transfer);
-            var bosbes = new Team(95, "bosbes", "kokosnoot", "Jeff");
-            dbfunctions.VoegTeamToe(bosbes);
-            bosbes.Naam = "mango";
-            dbfunctions.UpdateTeam(bosbes);
+         
            
         }
 

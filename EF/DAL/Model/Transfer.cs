@@ -12,13 +12,13 @@ namespace DAL.Model
         public int NieuweClubId { get; set; }
         public int Prijs { get; set; }
 
-      /*  public Transfer(int SpelerId, int OudeClub, int nieuweClub, int bedrag)
+        public Transfer(int SpelerId, int OudeClubId,int NieuweClubId, int Prijs) 
         {
             this.SpelerId = SpelerId;
-            this.OudeClubId = OudeClub;
-            this.NieuweClubId = nieuweClub;
-            this.Prijs = bedrag;
-        }*/
+            this.OudeClubId = OudeClubId;
+            this.NieuweClubId = NieuweClubId;
+            this.Prijs = Prijs;
+        }
        
     }
 }

@@ -29,7 +29,7 @@ namespace DataLayer
             using (var context = new MyDBContext())
             {
                 this.VerwijderSpelerVanTeam(transfer.SpelerId, transfer.OudeClubId); 
-                this.VoegSpelerAanTeamToe(transfer.SpelerId,transfer.OudeClubId); 
+                this.VoegSpelerAanTeamToe(transfer.SpelerId,transfer.NieuweClubId); 
                 context.Transfers.Add(transfer);
                 context.SaveChanges();
             }
