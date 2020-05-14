@@ -6,7 +6,6 @@ namespace DataLayer
 {
     public class Dbfunctions
     {
-        //TODO: implement all functions
         public void VoegSpelerToe(Speler speler)
         {
             using var context = new MyDBContext();

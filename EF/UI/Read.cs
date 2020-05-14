@@ -52,8 +52,6 @@ namespace UI
                     dbfunctions.VoegSpelerToe(s);
                 }
             }
-         
-           
         }
 
     }
