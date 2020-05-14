@@ -19,14 +19,13 @@ namespace DataLayer
             using (var context = new MyDBContext())
             {
                 context.Teams.Add(team);
-
                 context.SaveChanges();
             }
         }
 
         public void VoegTransferToe(Transfer transfer)
         {
-            using(var context = new MyDBContext()) 
+            using (var context = new MyDBContext())
             {
                 context.Transfers.Add(transfer);
                 context.SaveChanges();
@@ -36,28 +35,37 @@ namespace DataLayer
         public void UpdateSpeler(Speler speler)
         { }
 
-        public void UpdateTeam(Team team) 
+        public void UpdateTeam(Team team)
         {
         }
 
-        
-    /*   public Speler SelecteerSpeler(int spelerID) 
+
+        /*  public Speler SelecteerSpeler(int spelerID) 
+            {
+
+            }*/
+
+        public Team SelecteerTeam(int stamnummer)
         {
-            
+            Team team = null;
+            using (var context = new MyDBContext())
+            {
+
+               var  teams = context.Teams.ToList().Where(x => x.Stamnummer == stamnummer);
+
+            }
+            return team;
         }
-        
-       public Team SelecteerTeam(int stamnummer) 
-        {
-        }
-
-       public Transfer SelecteerTransfer(int transferID) 
-        {
-
-        }*/
-
-
     }
+
+    /*  public Transfer SelecteerTransfer(int transferID) 
+       {
+
+       }*/
+
+
 }
+
 
 
 

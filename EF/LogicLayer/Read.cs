@@ -13,7 +13,7 @@ namespace LeagueApp
         {
             using GenericParser footballParser = new GenericParser(Config.Path + "/" + Config.FileName)
             {
-                ColumnDelimiter = ';',
+                ColumnDelimiter = ',',
                 FirstRowHasHeader = true,
                 MaxBufferSize = 4096
             };
@@ -22,14 +22,19 @@ namespace LeagueApp
                 var spelernaam = footballParser[0] != null ? footballParser[0].Trim() : "";
                 var rugnummer = footballParser[1] != null ? int.Parse(footballParser[1]) : -1;
                 var clubNaam = footballParser[2] != null ? footballParser[2].Trim() : "";
-                var waarde = footballParser[3] != null ? double.Parse(footballParser[3]) : -1;
+               var waarde = footballParser[3] != null ? int.Parse(footballParser[3].Replace(" ", "")) : -1;
                 var stamnummer = footballParser[4] != null ? int.Parse(footballParser[4]) : -1;
                 var trainer = footballParser[5] != null ? footballParser[5].Trim() : "";
                 var bijnaam = footballParser[6] != null ? footballParser[6].Trim() : "";
-                //Todo: make data change
-              this.CreateTeam(stamnummer, clubNaam,bijnaam,trainer);
-                // this.CreatePlayer(spelernaam,rugnummer,waarde,)
+                //Todo don't create a team that has been created before
+                Console.WriteLine(spelernaam + clubNaam + waarde + bijnaam + trainer);
+
+                if (this.selectTeam(stamnummer) == null)
+                {
+                    this.CreateTeam(stamnummer, clubNaam, bijnaam, trainer);
+                }
                 
+
             }
 
         }
@@ -40,15 +45,20 @@ namespace LeagueApp
             dbfunctions.VoegTeamToe(t);
         }
 
-
-       
-         
-       
-     /*   public void CreatePlayer(string naam, int rugnummer, double value, Team team) 
+       public Team selectTeam(int stamnummer)
         {
-            Speler player = new Speler(naam, rugnummer,value,team);
             Dbfunctions dbfunctions = new Dbfunctions();
-            dbfunctions.VoegSpelerToe(player);
-        }*/
+            Team t = dbfunctions.SelecteerTeam(stamnummer);
+            return t;
+        }
+
+
+
+        /*   public void CreatePlayer(string naam, int rugnummer, double value, Team team) 
+           {
+               Speler player = new Speler(naam, rugnummer,value,team);
+               Dbfunctions dbfunctions = new Dbfunctions();
+               dbfunctions.VoegSpelerToe(player);
+           }*/
     }
 }
