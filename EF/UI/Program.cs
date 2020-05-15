@@ -9,6 +9,9 @@ namespace UI
         {
             Read reader = new Read();
             reader.ReadCsv();
+            Scenarios scenarios = new Scenarios();
+            scenarios.SpelerToevoegenEnAanpassenScenario();
+            scenarios.TransferScenario();
             
         }
     }

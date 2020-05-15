@@ -2,7 +2,7 @@
 using DAL.Model;
 using System.Linq;
 
-namespace DataLayer
+namespace DAL
 {
     public class Dbfunctions
     {
